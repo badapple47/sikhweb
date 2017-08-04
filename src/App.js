@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home/Home';
 
@@ -18,7 +18,7 @@ class App extends Component {
         <div>
         <Header/>
          <Home/>
-        {/* <Footer/>  */}
+          <Footer/>   
         </div>
     );
   }

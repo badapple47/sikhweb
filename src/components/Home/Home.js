@@ -2,31 +2,15 @@ import React, { Component } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom';
 
-
-
-
-
-
 class Home extends Component {
 
 	constructor(props) {
 		super(props);
 		this.state = {
-
-
-
-
 		}
-
-
-
 	}
 
-
-
 	render() {
-
-
 		return (
 
 
@@ -38,7 +22,7 @@ class Home extends Component {
 
 				<div className="col-md-8">
 
-					{/* <div className="container">  */}
+
 
 					<div id="myCarousel" className="carousel slide" data-ride="carousel">
 
@@ -74,65 +58,123 @@ class Home extends Component {
 						</a>
 
 					</div>
-					{/* </div>  */}
 
-					<div className="page-header">
-						<h1>Example page header <small>Subtext for header</small></h1>
+
+					<div className="page-header" id="gobrown">
+						<h1>Latest news <small>Subtext for header</small></h1>
 					</div>
 
 					<div className="row">
 						<div className="col-md-3">
 							<div className="thumbnail">
-								<img src="..." alt="..." />
+								
 								<div className="caption">
-									<h3>Thumbnail label</h3>
-									<p>...</p>
-									<p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
+									<h4 id="gobrown">EVERYTHINGS 13 ANNOUNCEMENT</h4>
+									<p>
+VaheGuru Ji Ka Khalsa, VaheGuru Ji Ki Fateh It is with great sadness we announce the passing of Jagraj Singh, founder of Everythings 13.
+Jagraj Singh was diagnosed with stage four inoperable cancer in December 2016.</p>
+								<p><a href="#" className="btn btn-primary" role="button" id="gobrownbutton">Read More</a> </p>
 								</div>
 							</div>
 						</div>
 						<div className="col-md-3">
 							<div className="thumbnail">
-								<img src="..." alt="..." />
+							
 								<div className="caption">
-									<h3>Thumbnail label</h3>
-									<p>...</p>
-									<p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
+									<h4 id="gobrown">INTRODUCING BASICS OF SIKHI’S NEW PARCHARAKS IN TRAINING</h4>
+									<p>With Guru’s Kirpa, we introduce to you two graduates of the Basics of Sikhi Academy and our new UK Parcharaks in training,</p>
+									<p><a href="#" className="btn btn-primary" role="button" id="gobrownbutton">Read More</a> </p>
 								</div>
 							</div>
 						</div>
 						<div className="col-md-3">
 							<div className="thumbnail">
-								<img src="..." alt="..." />
+								
 								<div className="caption">
-									<h3>Thumbnail label</h3>
-									<p>...</p>
-									<p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
+									<h4 id="gobrown">JAGRAJ SINGH WINS GOVERNMENT AWARD</h4>
+									<p>On 2nd February 2017, Everythings 13 founder Jagraj Singh became the winner of a ‘Points of Light’ award. Points of Light awards are given to “outstanding individual volunteers – people who are making a change in their community.”</p>
+									{/* <img src={require('../../pic/Jagraj-Singh-3 (1).jpg')} /> */}
+									<p><a href="#" className="btn btn-primary" role="button" id="gobrownbutton">Read More</a> </p>
 								</div>
 							</div>
 						</div>
 						<div className="col-md-3">
 							<div className="thumbnail">
-								<img src="..." alt="..." />
+							
 								<div className="caption">
-									<h3>Thumbnail label</h3>
-									<p>...</p>
-									<p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
+									<h4 id="gobrown">SIKHS DONATE OVER £100,000 IN UNDER THREE HOURS FOR AMRITSAR PROJECT</h4>
+									<p>Aired on 22nd January 2017 on the Sikh Channel in the UK, Europe, Canada and the USA, the fundraiser was done in support of Jagraj Singh, the Basics of Sikhi founder and the visionary behind the Amritsar Visitor Centre project, who is currently battling stage four cancer.</p>
+									<p><a href="#" className="btn btn-primary" role="button" id="gobrownbutton">Read More</a> </p>
 								</div>
 							</div>
 						</div>
 					</div>
+
+					{/*end top  */}
+
 					<hr />
 
-					<div className="col-md-6">
-						<h2>New videos</h2>
+					{/*stat bottom */}
 
+					<div className="col-md-6">
+						<h2 id="gobrown">New videos</h2>
+
+						<div className="row">
+							<div className="col-md-12">
+								<a href="#" className="thumbnail">
+									<img src={require('../../pic/Capture1.PNG')} />
+								</a>
+							</div>
+						</div>
+
+						<div className="col-md-6">
+							<h4 id="gobrown">Activities</h4>
+							<p>Check out pictures of our recent mission to Nepal​</p>
+
+							<br />
+
+							<h4 id="gobrown">Events</h4>
+							<p>Women’s bible reading Wednesday after services</p>
+
+							<br />
+
+							<h4 id="gobrown">Relief Fund</h4>
+							<p>Please show your support and donate to our Love the World fund.</p>
+						</div>
+
+						<div className="col-md-6">
+							<h4 id="gobrown">Subscribe for Updates</h4>
+							<input id="subscribe" type="text" className="form-control" placeholder="ENTER E-MAIL"/>
+						</div>
+
+					</div>
+
+
+					<div className="col-md-6">
+						<h2 id="gobrown">Live</h2>
+
+						<div className="row">
+							<div className="col-md-12">
+								<a href="#" className="thumbnail">
+									<img src={require('../../pic/1475117_1280x720.jpg')} />
+								</a>
+							</div>
+						</div>
+
+						<h4 id="gobrown">This Week's Sermon</h4>
+						<div className="col-md-5">
+							<img id="pic" src={require('../../pic/e703d3d133d695ee4af79615ddcd563d.jpg')} />
+						</div>
+						<div className="col-md-1">
+							
 						</div>
 						<div className="col-md-6">
-							<h2>Live</h2>
-							</div>
+							<p> This week our minister talked about the overloading of information. In a time when anything and everything is just a click away how do we take a step back and focus on the principles of our faith? </p>
+						</div>
 
+					</div>
 
+				
 
 
 
