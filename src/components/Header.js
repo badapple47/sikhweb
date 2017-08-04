@@ -58,7 +58,7 @@ class Header extends Component {
 
 
 
-                        <marquee>This text will scroll from right to left</marquee>
+                        <marquee><h4>This text will scroll from right to left</h4></marquee>
                     </div>
                     <div className="col-md-2">
                         
