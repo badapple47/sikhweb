@@ -32,12 +32,10 @@ class Footer extends Component {
       <div className = "col-md-4" >
 
         <div id="img">
-   
+        <img src={require('../pic/Untitled-1.png')} id="sikhlogo" />
         </div>
 
         <div id="des">
-        <p> Sikh Website </p>
-        <p> Just another footer </p>
         </div>
 
         <div className="input-group" id="footer-email-bar">

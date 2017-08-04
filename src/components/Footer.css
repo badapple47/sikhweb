@@ -7,9 +7,9 @@ clear: both;
 
 #img
 {
-padding-top : 40px;
-padding-left : 50px;
-
+width : 400%;
+margin-left : 40%;
+margin-bottom : 5%;
 }
 #okbutton
 {
@@ -20,7 +20,7 @@ color: #FFF
 
 #contact-us
 {
-padding-top: 30px ;
+padding-top: 5% ;
 padding-left: 80px;
 color: #FFF
 }
@@ -28,7 +28,7 @@ color: #FFF
 #sitemap
 {
 
-padding-top: 30px ;
+padding-top: -50px ;
 padding-left: 80px;
 color: #FFF
 
@@ -56,6 +56,6 @@ color: #FFF
 }
 
 #footer-middle{
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left :35%;
 }
