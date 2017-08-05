@@ -15,12 +15,12 @@ class Home extends Component {
 
 
 
-			<div className="homeja" >
-				<div className="col-md-2">
+			<div className="homeja css-font" >
+				<div className="col-md-2" id="home-left">
 
 				</div>
 
-				<div className="col-md-8">
+				<div className="col-md-8 " id="home-middle">
 
 
 
@@ -117,7 +117,7 @@ Jagraj Singh was diagnosed with stage four inoperable cancer in December 2016.</
 					{/*stat bottom */}
 
 					<div className="col-md-6">
-						<h2 id="gobrown">New videos</h2>
+						<h1 id="gobrown">New videos</h1>
 
 						<div className="row">
 							<div className="col-md-12">
@@ -145,13 +145,17 @@ Jagraj Singh was diagnosed with stage four inoperable cancer in December 2016.</
 						<div className="col-md-6">
 							<h4 id="gobrown">Subscribe for Updates</h4>
 							<input id="subscribe" type="text" className="form-control" placeholder="ENTER E-MAIL"/>
+							<a href="#" className="btn btn-primary" role="button" id="gobrownbuttonhome">Subscribe</a>
+							<br />
+							<br />
+							<p>We invite to join our mailing list and receive emails we send out with news, or special Mass schedules</p>
 						</div>
 
 					</div>
 
 
 					<div className="col-md-6">
-						<h2 id="gobrown">Live</h2>
+						<h1 id="gobrown">Live</h1>
 
 						<div className="row">
 							<div className="col-md-12">
@@ -182,7 +186,7 @@ Jagraj Singh was diagnosed with stage four inoperable cancer in December 2016.</
 
 
 
-				<div className="col-md-2">
+				<div className="col-md-2" id="home-right">
 
 				</div>
 

@@ -23,3 +23,48 @@
     background-color : #845349;
     border : white;
 }
+
+#home-left
+{
+    padding-left:50px;
+    /* margin-left:50px; */
+    padding-bottom: 200px;
+ /* padding-right: -200px;  */
+/* margin-right : -0; */
+    background-color: #845349;
+}
+
+/* #home-middle
+{
+margin-top:100px;
+   background-color: #845349;
+} */
+
+#home-right
+{
+    padding-left:50px;
+    /* margin-left:50px; */
+    padding-bottom: 200px;
+ /* padding-right: -200px;  */
+/* margin-right : -0; */
+    background-color: #845349;
+}
+
+#gobrownbuttonhome{
+    background-color : #845349;
+    border : white;
+
+    margin-top : 5%;
+    margin-left: 53%;
+}
+
+/* @font-face {
+  font-family: 'Designil Thai Font';
+  unicode-range: U+0E00–U+0E7F;
+} */
+
+  /* @font-face { font-family: 'Open Sans', sans-serif; }   */
+  /* .css-selector {
+  font-family: Open Sans, serif;
+} */
+

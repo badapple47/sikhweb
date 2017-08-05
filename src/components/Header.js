@@ -30,7 +30,7 @@ class Header extends Component {
 
 
 
-            <div className="" >
+            <div className="css-font" >
 
                 <div className="header-top" >
 
@@ -46,12 +46,12 @@ class Header extends Component {
                     </div>
                     <div className="col-md-8">
 
-                        <ul className="nav nav-tabs nav-justified">
-                            <li role="presentation" className="active"><a href="#">Home</a></li>
-                            <li role="presentation"><a href="#">About Us</a></li>
-                            <li role="presentation"><a href="#">News</a></li>
-                            <li role="presentation"><a href="#">Events</a></li>
-                            <li role="presentation"><a href="#">Activity</a></li>
+                        <ul className="nav nav-tabs nav-justified" id="gobrown" >
+                            <li role="presentation" className="active"><a href="#" id="gobrown">Home</a></li>
+                            <li role="presentation"><a href="#" id="gobrown">About Us</a></li>
+                            <li role="presentation"><a href="#" id="gobrown">News</a></li>
+                            <li role="presentation"><a href="#" id="gobrown">Events</a></li>
+                            <li role="presentation"><a href="#" id="gobrown">Activity</a></li>
 
                         </ul>
 

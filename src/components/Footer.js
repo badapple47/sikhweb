@@ -27,7 +27,7 @@ class Footer extends Component {
 
 
 
-          <div className= "row" id="footer" >
+          <div className= "row css-font" id="footer" >
   <div className= "container" >
       <div className = "col-md-4" >
 
@@ -81,7 +81,11 @@ class Footer extends Component {
           <p>    Email : test@hotmail.com </p>
         </div>
 
+       
+
       </div>
+
+       
   </div>
 
 

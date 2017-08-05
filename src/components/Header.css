@@ -17,3 +17,17 @@
     margin-top : 0%;
     padding-bottom:1%;
 }
+
+#gobrown{
+    color : #845349;
+}
+
+#gobrownbutton{
+    background-color : #845349;
+    border : white;
+}
+
+.css-font {
+  font-family: 'Open Sans', sans-serif;
+}
+
