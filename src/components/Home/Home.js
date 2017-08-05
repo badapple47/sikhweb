@@ -17,6 +17,7 @@ class Home extends Component {
 
 			<div className="homeja css-font" >
 				<div className="col-md-2" id="home-left">
+				
 
 				</div>
 
