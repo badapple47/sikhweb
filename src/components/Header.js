@@ -33,6 +33,11 @@ class Header extends Component {
             <div className="css-font" >
 
                 <div className="header-top" >
+                    <div className="header-top-login text-right" >
+                    <a>Login</a>
+                |
+                    <a>Register</a>
+                    </div>
 
 
                     <img src={require('../pic/Untitled-1.png')} id="sikhlogo" />
@@ -61,6 +66,7 @@ class Header extends Component {
                         <marquee><h4>This text will scroll from right to left</h4></marquee>
                     </div>
                     <div className="col-md-2">
+                        
                         
                     </div>
 
