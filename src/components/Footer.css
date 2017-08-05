@@ -2,7 +2,7 @@
 {
 
   /* background-color : #CCCC99; */
- background-color : #442D28; 
+ background-color : #D6CDAB; 
 clear: both;
 
 }
@@ -48,9 +48,6 @@ color: #FFF
 	padding-bottom:30px;
 }
 
-/* c {
-  color: hotpink;
-} */
 
 
 .footerlink{
@@ -61,6 +58,8 @@ color: #FFF
   margin-top: 12%;
   margin-left :35%;
 }
+
+/* social */
 
 .social:hover {
      -webkit-transform: scale(1.1);
@@ -78,9 +77,6 @@ color: #FFF
      -o-transition-duration: 0.5s;
  }
 
-/*
-    Multicoloured Hover Variations
-*/
  
  #social-fb:hover {
      color: #3B5998;
@@ -101,3 +97,4 @@ color: #FFF
   margin-bottom: 100px;
 }
 
+/* endsocial */
