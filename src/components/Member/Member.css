@@ -1,0 +1,36 @@
+.Member 
+{
+    padding-top : 7%;
+}
+
+#member-userprofile
+{
+    margin-top: 10%;
+    width : 130%;
+}
+
+#member-editprofile{
+    margin-left : 7%;
+}
+
+#member-editprofile-form
+{
+    margin-top: 10%;
+}
+
+#member-message
+{
+    padding-bottom: 120px;
+    
+}
+
+
+#member-save
+{
+    margin-left : 80% ;
+    margin-bottom : 10%;
+
+    background-color : #845349;
+    border : white;
+    color : white;
+}

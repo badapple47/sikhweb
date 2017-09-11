@@ -4,7 +4,9 @@ import './App.css';
 import Footer from './components/Footer2';
 import Header from './components/Header';
 import Home from './components/Home/Home';
-import Event from './components/Event/Event';
+import Events from './components/Event/Event';
+import News from './components/News/News';
+import Member from './components/Member/Member';
 
 import {
   BrowserRouter as Router,
@@ -18,9 +20,19 @@ class App extends Component {
   render() {
     return (
         <div>
+  
         <Header/>
-         <Event/>
-        <Footer/>   
+        <Route exact={true} path="/" component={Home} />
+        <Route path="/News" component={News} />
+        <Route path="/Member" component={Member} />
+      
+        <Route path="/Event" component={Events} />
+       
+    
+        <Footer/>
+
+
+
         </div>
     );
   }

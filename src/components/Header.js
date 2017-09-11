@@ -20,15 +20,8 @@ class Header extends Component {
 
 
     }
-
-
-
     render() {
-
-
         return (
-
-
 
             <div className="css-font" >
 
@@ -52,15 +45,14 @@ class Header extends Component {
                     <div className="col-md-8">
 
                         <ul className="nav nav-tabs nav-justified" id="gobrown" >
-                            <li role="presentation" className="active"><a href="#" id="gobrown">Home</a></li>
+                            <li role="presentation" className="active"><a href="/" id="gobrown">Home</a></li>
+                            <li role="presentation"><a href="/member" id="gobrown">Member</a></li>
                             <li role="presentation"><a href="#" id="gobrown">About Us</a></li>
-                            <li role="presentation"><a href="#" id="gobrown">News</a></li>
-                            <li role="presentation"><a href="#" id="gobrown">Events</a></li>
+                            <li role="presentation"><a href="/News" id="gobrown">News</a></li>
+                            <li role="presentation"><a href="/event" id="gobrown">Events</a></li>
                             <li role="presentation"><a href="#" id="gobrown">Activity</a></li>
 
                         </ul>
-
-
 
 
                         <marquee><h4>This text will scroll from right to left</h4></marquee>
