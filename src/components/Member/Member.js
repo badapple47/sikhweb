@@ -17,87 +17,360 @@ class Member extends Component {
 
 			<div className="Member css-font" >
 
-                <div className="col-md-1" >
-
-                 
-
-				</div>
-
-                <div className="col-md-2 col-md-offset-1" id="member-editprofile">
-                    <h2 id="gobrown"> Edit Profile </h2>
-
-                    
-						<img src={require('../../pic/7090424333_440770dc8c_o.jpg')} id="member-userprofile" />
-				   
-                  
-
-				</div>
-
-                <div className="col-md-6" id="">
-
-                <form className="form-horizontal" id="member-editprofile-form">
-
-                                          <div className="form-group">
-                                            <label className="control-label col-sm-3 " for="email">Name:</label>
-                                            <div className="col-sm-8">
-                                              <input type="Email" className="form-control" id="email" placeholder="Name" name="Email" />
-                                            </div>
-                                          </div>
-                                          <div className="form-group">
-                                            <label className="control-label col-sm-3" for="pwd">Email:</label>
-                                            <div className="col-sm-8"> 
-                                              <input type="Password" className="form-control" id="pwd" placeholder="Email" name="Pass"/>
-                                            </div>
-                                          </div>
-
-                                           <div className="form-group">
-                                            <label className="control-label col-sm-3" for="confpwd">Phone:</label>
-                                            <div className="col-sm-8"> 
-                                              <input type="Password" className="form-control" id="pwd" placeholder="Phone" name="confirmpassword" />
-                                            </div>
-                                          </div>
-
-                                           <div className="form-group">
-                                            <label className="control-label col-sm-3" for="firstname">Address:</label>
-                                            <div className="col-sm-8"> 
-                                              <input type="First Name" className="form-control" id="pwd" placeholder="Address" name="Firstname" />
-                                            </div>
-                                          </div>
-                                          
-                                          <div className="form-group">
-                                            <label className="control-label col-sm-3" for="lastname">Subject:</label>
-                                            <div className="col-sm-8"> 
-                                              <input type="Last Name" className="form-control" id="pwd" placeholder="Subject" name="Lastname" />
-                                            </div>
-                                          </div>
-
-                                          <div className="form-group">
-                                            <label className="control-label col-sm-3" for="phonenum">Message:</label>
-                                            <div className="col-sm-8"> 
-                                              <input type="Phone Number" className="form-control" id="member-message" placeholder="Message" name="tel" />
-                                            </div>
-                                          </div>
-
-                                          <a type="button" className="btn btn-default" id= "member-save" href="/"  >Save</a> 
-
-
-                                          
-                                        </form>
-
-
-                   
-
-				</div>
-
-                <div className="col-md-2" id="">
-
-                  
-
-				</div>
                 
+                <div className="col-md-2">
+                    
+                </div>
 
-				
 
+
+                <div className="col-md-8">
+
+
+<div id="member-table">
+
+                           
+
+                            <div className="method">
+                                <div className="row margin-0 list-header hidden-sm hidden-xs">
+                                    <div className="col-md-2"><div className="header" id="member-table-header">Name</div></div>
+                                    <div className="col-md-2"><div className="header" id="member-table-header">Sirname</div></div>
+                                    <div className="col-md-1"><div className="header" id="member-table-header">Age</div></div>
+                                    <div className="col-md-2"><div className="header" id="member-table-header">Date Of Birth</div></div>
+                                    <div className="col-md-2"><div className="header" id="member-table-header">Contact</div></div>
+                                    <div className="col-md-2"><div className="header" id="member-table-header">Address</div></div>
+                                    <div className="col-md-1"><div className="header" id="member-table-header">Job</div></div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            
+                            <div className="method">
+                                <div className="row margin-0">
+
+                                    <div className="col-md-2" >
+                                        <div className="cell" >
+
+                                            <div className="member-table-body">
+                                            Pathompong
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Chaisri
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                               21
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                15/02/1996
+                                      </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                +66862312345
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                204/33 Tungkru Tungkru Prachatutit 76
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Developer
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2" >
+                                        <div className="cell" >
+
+                                            <div className="member-table-body">
+                                            Pathompong
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Chaisri
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                               21
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                15/02/1996
+                                      </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                +66862312345
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                204/33 Tungkru Tungkru Prachatutit 76
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Developer
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2" >
+                                        <div className="cell" >
+
+                                            <div className="member-table-body">
+                                            Pathompong
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Chaisri
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                               21
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                15/02/1996
+                                      </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                +66862312345
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                204/33 Tungkru Tungkru Prachatutit 76
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Developer
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2" >
+                                        <div className="cell" >
+
+                                            <div className="member-table-body">
+                                            Pathompong
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Chaisri
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                               21
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                15/02/1996
+                                      </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                +66862312345
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                204/33 Tungkru Tungkru Prachatutit 76
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Developer
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2" >
+                                        <div className="cell" >
+
+                                            <div className="member-table-body">
+                                            Pathompong
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Chaisri
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                               21
+                                      </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                15/02/1996
+                                      </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                +66862312345
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-2">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                204/33 Tungkru Tungkru Prachatutit 76
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-1">
+                                        <div className="cell">
+                                            <div className="member-table-body">
+                                                Developer
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                </div>
+                                <div  id="member-spacewithfooter" > </div>
+
+                            </div>
+
+                            
+                        
+
+                        </div>
+                        
+
+
+
+
+
+              {/*End Tracking-detial 1 */}
+
+              </div>
+              
+
+              <div className="col-md-2">
+                </div>
 
 			</div>
 
@@ -107,5 +380,8 @@ class Member extends Component {
 
 
 export default Member;
+
+
+
 
 

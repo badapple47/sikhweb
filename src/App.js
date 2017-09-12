@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Home from './components/Home/Home';
 import Events from './components/Event/Event';
 import News from './components/News/News';
+import Editprofile  from './components/Member/Editprofile';
 import Member from './components/Member/Member';
 
 import {
@@ -25,6 +26,7 @@ class App extends Component {
         <Route exact={true} path="/" component={Home} />
         <Route path="/News" component={News} />
         <Route path="/Member" component={Member} />
+        <Route path="/Editprofile " component={Editprofile}  />
       
         <Route path="/Event" component={Events} />
        
