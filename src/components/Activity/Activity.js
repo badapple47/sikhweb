@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Event.css'
+import './Activity.css'
 import { Link } from 'react-router-dom';
 
-class Event extends Component {
+class Activity extends Component {
 
 	constructor(props) {
 		super(props);
@@ -26,7 +26,7 @@ class Event extends Component {
 							<div className="row">
 										
 											<a href="#" className="thumbnail">
-											<img src={require('../../pic/2.jpeg')} />
+											<img src={require('../../pic/5.jpg')} />
 											</a>
 							</div>
 										
@@ -54,7 +54,7 @@ class Event extends Component {
 							<div className="row">
 										
 											<a href="#" className="thumbnail">
-											<img src={require('../../pic/3.jpg')} />
+											<img src={require('../../pic/4.jpg')} />
 											</a>
 							</div>
 										
@@ -83,7 +83,7 @@ class Event extends Component {
 							<div className="row">
 										
 											<a href="#" className="thumbnail">
-											<img src={require('../../pic/1.jpeg')} />
+											<img src={require('../../pic/6.jpg')} />
 											</a>
 							</div>
 										
@@ -124,6 +124,6 @@ class Event extends Component {
 };
 
 
-export default Event;
+export default Activity;
 
 

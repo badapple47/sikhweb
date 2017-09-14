@@ -9,6 +9,9 @@ import News from './components/News/News';
 import Editprofile  from './components/Member/Editprofile';
 import Member from './components/Member/Member';
 
+import AboutUs from './components/AboutUs/AboutUs';
+import Activity from './components/Activity/Activity';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -23,10 +26,13 @@ class App extends Component {
         <div>
   
         <Header/>
+
         <Route exact={true} path="/" component={Home} />
         <Route path="/News" component={News} />
         <Route path="/Member" component={Member} />
         <Route path="/Editprofile " component={Editprofile}  />
+        <Route path="/aboutus" component={AboutUs} />
+        <Route path="/activity" component={Activity} />
       
         <Route path="/Event" component={Events} />
        
