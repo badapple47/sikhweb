@@ -27,9 +27,14 @@ class Header extends Component {
 
                 <div className="header-top" >
                     <div className="header-top-login text-right" >
-                    <a href="/member">Pathompong</a>
-                |
+                    <a>Pathompong</a>
+
+                        |
+
+                    <a href="/editprofile">Editprofile</a>
+                        |
                     <a href="/">Logout</a>
+                    
                     </div>
 
 

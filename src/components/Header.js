@@ -28,7 +28,7 @@ class Header extends Component {
                 <div className="header-top" >
                     <div className="header-top-login text-right" >
                     <a href="/home2" >Login</a>
-                |
+                            |
                     <a>Register</a>
                     </div>
 
