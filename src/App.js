@@ -3,14 +3,15 @@ import './App.css';
 // import Footer from './components/Footer';
 import Footer from './components/Footer2';
 import Header from './components/Header';
-import Home from './components/Home/Home';
-import Events from './components/Event/Event';
-import News from './components/News/News';
-import Editprofile  from './components/Member/Editprofile';
-import Member from './components/Member/Member';
+import Home_Route from './components/Home_Route';
+import Home2_Route from './components/Home2_Route';
+import Event_Route from './components/Event_Route';
+import News_Route from './components/News_Route';
+import Editprofile_Route  from './components/Editprofile_Route';
+import Member_Route from './components/Member_Route';
 
-import AboutUs from './components/AboutUs/AboutUs';
-import Activity from './components/Activity/Activity';
+import AboutUs_Route from './components/AboutUs_Route';
+import Activity_Route from './components/Activity_Route';
 
 import {
   BrowserRouter as Router,
@@ -25,19 +26,20 @@ class App extends Component {
     return (
         <div>
   
-        <Header/>
+        
 
-        <Route exact={true} path="/" component={Home} />
-        <Route path="/News" component={News} />
-        <Route path="/Member" component={Member} />
-        <Route path="/Editprofile " component={Editprofile}  />
-        <Route path="/aboutus" component={AboutUs} />
-        <Route path="/activity" component={Activity} />
+        <Route exact={true} path="/" component={Home_Route} />
+        <Route path="/home2" component={Home2_Route} />
+        <Route path="/News" component={News_Route} />
+        <Route path="/Member" component={Member_Route} />
+        <Route path="/Editprofile" component={Editprofile_Route}  />
+        <Route path="/aboutus" component={AboutUs_Route} />
+        <Route path="/activity" component={Activity_Route} />
       
-        <Route path="/Event" component={Events} />
+        <Route path="/Event" component={Event_Route} />
        
     
-        <Footer/>
+        
 
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Member.css'
+import './Editprofile.css'
 import { Link } from 'react-router-dom';
 
 class Editprofile extends Component {
